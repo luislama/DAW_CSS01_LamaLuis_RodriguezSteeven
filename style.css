@@ -1,0 +1,105 @@
+h1{
+text-align : center;
+font-size : 40pt;
+
+	
+
+}
+header {
+
+background-image : url('https://www.jetchill.com/wp-content/uploads/2017/05/blog-header-background.jpg');
+color : darkorange;
+font-family : Verdana;
+height : 70px;
+
+}
+
+.fila1{
+display : inline-block;
+margin : 12px;
+}
+p.fila1{
+width: 60%;
+
+}
+
+nav{
+	text-align: center;
+	width: 100%;
+}
+
+ul.ul_nav{
+	padding: 4px 6px 4px;
+	margin-top: 5px;
+}		
+
+li.li_nav{
+	list-style: none;
+
+	background-color: rgb(113, 203, 182);
+	border: 2px gray;
+	border-style: solid;
+	
+	margin-top: 1%;
+	margin-right: auto;
+	margin-left: auto;
+	width: 140px;
+	display: inline-block;
+	
+	padding: 2px;
+	text-align: center;
+}
+
+li.li_nav:hover {
+  background: #B1DFCD;
+}
+
+li.li_nav:active {
+    background-color: white;
+    font-weight: bold;
+}
+
+.container{
+display:inline-block;
+margin : 12px;
+
+}
+
+
+aside{
+width : 20%;
+}
+section{
+width : 80%;
+ right: 300px;
+float: right;
+
+}
+
+.bod {
+display: inline-block;
+}
+
+
+
+footer {
+	border: 2px gray;
+	border-style: solid;
+	height: 160px;
+	width: 100%;
+	padding: 3px 2% 3px;
+}
+p.foot{
+	width: 50%;
+	
+	position:relative
+	text: justify;
+}
+.foot{
+	display : inline-block;
+} 
+img.foot{
+	width: 30%;
+	float: right;
+	height: 160px;
+}
