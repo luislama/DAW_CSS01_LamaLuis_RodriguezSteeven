@@ -12,186 +12,65 @@
 		</header>
 
 		<nav>
-				<ul class="ul_nav">
-					<li class="li_nav">Principal</li>
-					<li class="li_nav">Quienes somos?</li>
-					<li class="li_nav">Personal</li>
-					<li class="li_nav">Encuentranos</li>
-				</ul>
+			<ul class="ul_nav">
+				<li class="li_nav"><a href="principal.html">Principal</a></li>
+				<li class="li_nav"><a href="quienesSomos.html">Quienes somos?</a></li>
+				<li class="li_nav"><a href="personal.html">Personal</a></li>
+				<li class="li_nav"><a href="encuentranos.html">Encuentranos</a></li>
+			</ul>
 		</nav>
 
-		<aside class="bod">
-			<table>
-				<tr>
-					<td>
-						<label>Como usar nuestro sitio?</label>
-					</td>
-				</tr>
-				<tr>
-					<td><img src="img/aside_webvideo.png" alt="video tutorial"></td>
-				</tr>
-				<tr>
-					<td>
-						<label>Stream</label>
-					</td>
-				</tr>
-				<tr>
-					<td><img src="img/aside_twits.png" alt="stream de twitter"></td>
-				</tr>
-			</table>
+			<aside class="bod">
+				<h3>Como usar nuestro sitio?</h3>
+				<img class="imagen" src="img/aside_webvideo.png" alt="video tutorial" width="250">
+				<h3>Stream</h3>
+				<div class="tweet" id="tweet-1">
+	  <img class="imagen" src="http://assets.insights.litmus.com/campaigns/tedc-2015/assets/tweets.jpg" width="250" height="700" border="0" class="webkit-hide" alt="tweet #TEDC15 to show up in the live feed!" style="color: #666666; font-size: 16px;"/>
 		</aside>
 		<section class="bod">
 			<h2>Envianos tus opiniones</h2>
-			-------------------
-			<table>
-				<tr>
-					<td>
-						<label>Nombres Completos</label>
-					</td>
-					<td><input type="text" name="nombre"></td>
-				</tr>
-				<tr>
-					<td>
-						<label>Correo Electronico</label>
-					</td>
-					<td><input type="text" name="email"></td>
-				</tr>
-				<tr>
-					<td>
-						<label> Utilidad del sitio</label>
-					</td>
-					<td>
-						<table>
-							<tr>
-								<td>
-									<input type="radio" name="utilidad">
-									<label>Nada</label>
-								</td>
-								<td>
-									<input type="radio" name="utilidad">
-									<label>Poco</label>
-								</td>
-								<td>
-									<input type="radio" name="utilidad">
-									<label>Algo</label>
-								</td>
-								<td>
-									<input type="radio" name="utilidad">
-									<label>Muy</label>
-								</td>
-								<td>
-									<input type="radio" name="utilidad">
-									<label>Completamente</label>
-								</td>
-							</tr>
-						</table>
-					</td>
-				</tr>
-				<tr>
-					<td>
-						<label>Edad</label>
-					</td>
-					<td>
-						<input type="number" name="edad" min="0" max="100">
-						<label>anios</label>
-					</td>
-				</tr>
-				<tr>
-					<td>
-						<label>Provincia</label>
-					</td>
-					<td>
-						<select name="text">
-							<option>Azuay</option>
-							<option>Bolivar</option>
-							<option>Caniar</option>
-							<option>Carchi</option>
-							<option>Chimborazo</option>
-							<option>Cotopaxi</option>
-							<option>Esmeraldas</option>
-							<option>Guayas</option>
-							<option>Imbabura</option>
-							<option>Loja</option>
-							<option>Los Rios</option>
-							<option>Manabi</option>
-							<option>Morona Santiago</option>
-							<option>Napo</option>
-							<option>Orellana</option>
-							<option>El Oro</option>
-							<option>Pastaza</option>
-							<option>Pichincha</option>
-							<option>Santa Elena</option>
-							<option>Santo Domingo de los Tsachilas</option>
-							<option>Tungurahua</option>
-							<option>Zamora Chinchipe</option>
-						</select>
-					</td>
-				</tr>
-			</table>
-			<table>
-				<tr>
-					<td>
-						<label>Comentarios</label>
-					</td>
-				</tr>
-				<tr>
-					<td>
-						<textarea cols="50" rows="4"></textarea>
-					</td>
-				</tr>
-				<tr>
-					<td>
-						<input type="checkbox" name="suscribirme" checked="">
-						<label>Deseo suscribirme para recibir noticias</label>
-					</td>
-				</tr>
-				<tr>
-					<td>
-						<button>Enviar</button>
-					</td>
-				</tr>
+-------------------
+<form method="post">
+	<label for="POST-name">Nombres Completos</label><input id="POST-name" type="text" name="nombre">
+	<br>
+	<label>Correo Electronico</label><input type="text" name="email">
+	<br>
+	<label> Utilidad del sitio</label>
+	<input type="radio" name="utilidad"><label>Nada</label>
+	<input type="radio" name="utilidad"><label>Poco</label>
+	<input type="radio" name="utilidad"><label>Algo</label>
+	<input type="radio" name="utilidad"><label>Muy</label>
+	<input type="radio" name="utilidad"><label>Completamente</label>
+	<br>
+	<label>Edad</label><input type="number" name="edad" min="0" max="100"><label>anios</label>
+	<br>
+	<label>Provincia</label>
+	<select name="text">
+		<option>Azuay</option>
+		<option>Bolivar</option>
+		<option>Caniar</option>
+		<option>Carchi</option>
+		<option>Chimborazo</option>
+		<option>Cotopaxi</option>
+		<option>Esmeraldas</option>
+		<option>Guayas</option>
+		<option>Imbabura</option>
+		<option>Loja</option>
+		<option>Los Rios</option>
+		<option>Manabi</option>
+		<option>Morona Santiago</option>
+		<option>Napo</option>
+		<option>Orellana</option>
+		<option>El Oro</option>
+		<option>Pastaza</option>
+		<option>Pichincha</option>
+		<option>Santa Elena</option>
+		<option>Santo Domingo de los Tsachilas</option>
+		<option>Tungurahua</option>
+		<option>Zamora Chinchipe</option>
+	</select>
 
-			</table>
-			-------------------
-			<form method="post">
-				<label for="POST-name">Nombres Completos</label><input id="POST-name" type="text" name="nombre">
-				<br>
-				<label>Correo Electronico</label><input type="text" name="email">
-				<br>
-				<label> Utilidad del sitio</label>
-				<input type="radio" name="utilidad"><label>Nada</label>
-				<input type="radio" name="utilidad"><label>Poco</label>
-				<input type="radio" name="utilidad"><label>Algo</label>
-				<input type="radio" name="utilidad"><label>Muy</label>
-				<input type="radio" name="utilidad"><label>Completamente</label>
-				<br>
-				<label>Edad</label><input type="number" name="edad" min="0" max="100"><label>anios</label>
-				<br>
-				<label>Provincia</label>
-				<select name="text">
-					<option>Azuay</option>
-					<option>Bolivar</option>
-					<option>Caniar</option>
-					<option>Carchi</option>
-					<option>Chimborazo</option>
-					<option>Cotopaxi</option>
-					<option>Esmeraldas</option>
-					<option>Guayas</option>
-					<option>Imbabura</option>
-					<option>Loja</option>
-					<option>Los Rios</option>
-					<option>Manabi</option>
-					<option>Morona Santiago</option>
-					<option>Napo</option>
-					<option>Orellana</option>
-					<option>El Oro</option>
-					<option>Pastaza</option>
-					<option>Pichincha</option>
-					<option>Santa Elena</option>
-					<option>Santo Domingo de los Tsachilas</option>
-					<option>Tungurahua</option>
-					<option>Zamora Chinchipe</option>
-				</select>
+
 				<br>
 				<label>Comentarios</label>
 				<br>
@@ -205,7 +84,7 @@
 		<footer>
 				<p class="foot">&copy;El contenido de esta obra es de prioridad intelectual de nuestro grupo. Todos los derechos reservados. Prohibida su reproduccion total, parcial, comunicacion publica o distribucion sin autorizacion previa del titular de los derechos.</p>
 
-				<img class="foot" src="img/defaultIMG.png" alt="imagen del footer">
+				<img  class="foot imagen" src="img/defaultIMG.png" alt="imagen del footer">
 		</footer>
 	</body>
 </html>

@@ -102,3 +102,24 @@ img.foot{
 	float: right;
 	height: 160px;
 }
+
+img.imagen{
+	box-shadow: 5px;
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border: 7px solid #000000;
+
+}
+#some-element {
+  border: 1px solid #ccc;
+  display: none;
+  font-size: 10px;
+  margin-top: 10px;
+  padding: 5px;
+  text-transform: uppercase;
+}
+
+ul li a:hover, ul li a:focus #some-element {
+color: red;
+}
