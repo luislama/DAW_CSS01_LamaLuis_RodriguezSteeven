@@ -84,7 +84,7 @@ display: inline-block;
 footer {
 	border: 2px gray;
 	border-style: solid;
-	height: 160px;
+	height: 175px;
 	width: 100%;
 	padding: 3px 2% 3px;
 }
@@ -120,6 +120,25 @@ img.imagen{
   text-transform: uppercase;
 }
 
-ul li a:hover, ul li a:focus #some-element {
-color: red;
+a.a_li_nav:link {
+    text-decoration: none;
+    color: black;
+}
+
+/* visited link */
+a.a_li_nav:visited {
+    text-decoration: none;
+    color: black;
+}
+
+/* mouse over link */
+a.a_li_nav:hover {
+    text-decoration: none;
+    color: black;
+}
+
+/* selected link */
+a.a_li_nav:active {
+    text-decoration: none;
+    color: black;
 }
