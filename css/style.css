@@ -89,7 +89,7 @@ footer {
 	padding: 3px 2% 3px;
 }
 p.foot{
-	width: 50%;
+	width: 100%;
 
 	position:relative
 	text: justify;
@@ -98,7 +98,7 @@ p.foot{
 	display : inline-block;
 }
 img.foot{
-	width: 30%;
+	width: 100%;
 	float: right;
 	height: 160px;
 }
